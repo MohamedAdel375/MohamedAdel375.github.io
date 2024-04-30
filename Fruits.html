@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="eg">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="Stylesheet" href="Fruits.css">
+		<link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+		<header>
+			<div class="logo">
+				<a class="supermarket"><i class="fa-solid fa-cart-shopping"></i></a>
+			<a href="index.html" class="name-page">SPOS</a>
+			</div>
+				<div class="box">
+					<form>
+						<i class="fa-solid fa-magnifying-glass"></i>
+						<input type="search" placeholder="What are you looking for?"> 
+						<input type="submit" value="submit">
+					</form>
+				</div>
+				<div class="icon">
+					<a id="icon1" href="info.html"><i class="fa-solid fa-circle-info"></i></a>
+					<a id="icon2" href="login.html"> <i class="fa-solid fa-right-to-bracket"></i></a>
+					<a id="icon3" href="cart.html"> <i class="fa-solid fa-basket-shopping"></i></a>
+				</div>
+		</header>
+		<section class="nono">
+			<nav class="navigation">
+			<a href="Dairy.html" >Dairy</a>
+			<a href="chips.html" >Chips</a>
+			<a href="chocolates.html" >Chocolate</a>
+			<a href="drinks.html">Drink</a>
+			<a href="Vegetables.html" >Vegetables</a>
+			<a href="Fruits.html" >Fruits</a>
+			<a href="spices.html" >Spices</a>
+			<a href="meat.html" >Meat</a>
+			</nav>
+		</section>
+	</head>
+	<body>
+		<section class="main">
+			<img src="Black Friday.jpg">
+		</section>
+	<div class="ad">
+		<video muted loop width="200px" height="400px" autoplay ma>
+			<source src="Ad.mp4">
+		</video>
+	<div class="ad-2">
+			<video muted loop width="200px" height="400px" autoplay>
+				<source src="ad-2.mp4">
+			</video>
+	</div>
+		<div class="orange">2
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="orange" src="photo/Top Foods to Help Lower Cholesterol.jpg" alt="Orange">
+			<pre>Orange<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus" onclick="totalClick(-1)"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus" onclick="totalClick(1)"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="mandarin">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="mandarin" src="photo/mandarin.jpg" alt="mandarin">
+			<pre>mandarin<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus" onclick="totalClick(-1)"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus" onclick="totalClick(1)"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="bananas">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="bananas" src="photo/Bananas.jpg" alt="Bananas">
+			<pre>Bananas<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="guavas">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="guavas" src="photo/Guavas.jpg" alt="Guavas">
+			<pre>Guavas<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="pineapple">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="pineapple" src="photo/pineapple.jpg" alt="Pineapple">
+			<pre>Pineapple<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="red-apple">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="red-apple" src="photo/Red Apple.jpg" alt="Red Apple">
+			<pre>Red Apple<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="green-apple">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="green-apple" src="photo/Green apple.jpg" alt="Green Apple">
+			<pre>Green Apple<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="yellow-apple">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="yellow-apple" src="photo/Yellow apple.jpg" alt="Yellow Apple">
+			<pre>Yellow Apple<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="peach">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="peach" src="photo/peach.jpg" alt="Peach">
+			<pre>Peach<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Watermelon">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Watermelon" src="photo/Watermelon.jpg" alt="Watermelon">
+			<pre>Watermelon<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Strawberry">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Strawberry" src="photo/Strawberry.jpg" alt="Strawberry">
+			<pre>Strawberry<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="pomegranate">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="pomegranate" src="photo/pomegranate.jpg" alt="Pomegranate">
+			<pre>Pomegranate<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="plum">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="plum" src="photo/plum.jpg" alt="plum">
+			<pre>Plum<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Cantaloupe">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Cantaloupe" src="photo/Cantaloupe.jpg" alt="Cantaloupe">
+			<pre>Cantaloupe<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="kiwi">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="kiwi" src="photo/kiwi.jpg" alt="kiwi">
+			<pre>kiwi<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Blue-grapes">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Blue-grapes" src="photo/Blue grapes.jpg" alt="Blue grapes">
+			<pre>Blue-grapes<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Red-grapes">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Red-grapes" src="photo/Red grapes.jpg" alt="Red grapes">
+			<pre>Red grapes<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Yellow-grapes">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Yellow-grapes" src="photo/Yellow grapes.jpg" alt="Yellow grapes">
+			<pre>Yellow grapes<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Green-grapes">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Green-grapes" src="photo/Green grapes.jpg" alt="Green grapes">
+			<pre>Green grapes<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="pears">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="pears" src="photo/pears.jpg" alt="pears">
+			<pre>Pears<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="avocado">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="avocado" src="photo/avocado.jpg" alt="avocado">
+			<pre>Avocado<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="fig">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="fig" src="photo/fig.jpg" alt="fig">
+			<pre>Fig<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Pumpkin">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Pumpkin" src="photo/Pumpkin.jpg" alt="Pumpkin">
+			<pre>Pumpkin<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="Mango">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="Mango" src="photo/Mango.jpeg" alt="Mango">
+			<pre>Mango<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+
+		<div class="grapefruit">
+			<button id="heart"><i class="fa-regular fa-heart"></i></button>
+			<img id="grapefruit" src="photo/grapefruit.jpeg" alt="grapefruit">
+			<pre>grapefruit<br><br><span class="ingredient">25 EGP / 250gm</span></b></pre>
+			<div class="button">
+				<button id="minus"><i class="fa-solid fa-minus"></i></button>
+				<button id="num">1</button>
+				<button id="plus"><i class="fa-solid fa-plus"></i></button>
+			</div>
+			<div class="Cart">
+				<button id="cart">Add to Cart</button>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="coul">
+						<h3>𝗦𝗣𝗢𝗦</h3>
+							<ul>
+								<li><a href="#">about us</a></li>
+								<li><a href="#">our services</a></li>
+								<li><a href="#">privacy policy</a></li>
+								<li><a href="#">affiliate program</a></li>
+							<ul>
+					</div>
+					<div class="coul">
+						<h3>𝗦𝗵𝗼𝗽𝗽𝗶𝗻𝗴</h3>
+							<ul>
+								<li><a href="Dairy.html">​🇩​​🇦​​🇮​​🇷​​🇾</a></li>
+                                <li><a href="chips.html">🇨​​🇭​​🇮​​🇵​​🇸​</a></li>
+                                <li><a href="chocolates.html">🇨​​🇭​​🇴​​🇨​​🇴​​🇱​​🇦​​🇹​​🇪​</a></li>
+                                <li><a href="drinks.html">​🇩​​🇷​​🇮​​🇳​​🇰​</a></li>
+                                <li><a href="Vegetables.html">🇻​​🇪​​🇬​​🇪​​🇹​​🇦​​🇧​​🇱​​🇪​​🇸​</a></li>
+                                <li><a href="Fruits.html">🇫​​🇷​​🇺​​🇮​​🇹​​🇸​</a></li>
+                                <li><a href="spices.html">🇸​​🇵​​🇮​​🇨​​🇪​​🇸​</a></li>
+                                <li><a href="meat.html">🇲​​🇪​​🇦​​🇹​</a></li>
+							<ul>
+					</div>
+					<div class="coul">
+						<h3>𝗙𝗲𝗲𝗱-𝗯𝗮𝗰𝗸</h3>
+							<ul>
+							<form clas="feed">
+							<input type="text" placeholder="Rate Us" style="height:125px; width:230px ;">
+							</form>
+							<ul>
+					</div>
+					<div class="coul">
+							<div class="socialz">
+								<h3>𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝘂𝘀</h3>
+									<ul>
+											<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+											<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+											<li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+											<li><a href="#"><i class="fa-brands fa-snapchat"></i></a></li>
+									</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>

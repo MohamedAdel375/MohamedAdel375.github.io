@@ -1,0 +1,775 @@
+body{
+	background-color:whitesmoke
+}
+#heart{
+	font-size: 30px;
+    margin-left: 177px;
+    border-radius: 50px;
+    border-style: hidden;
+    background-color: #ff00001f;
+    color: red;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#heart:hover{
+	font-size: 35px;
+	background-color: #ff00007d;
+}
+#plus{
+	margin-left: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	border-style: hidden;
+	cursor: pointer;
+	color: white;
+    background-color: #0080a7;
+}
+#minus{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	border-style: hidden;
+	cursor: pointer;
+	color: white;
+    background-color: #0080a7;
+}
+#num{
+	margin-left: 31px;
+	background-color: rgba(255, 228, 196, 0);
+	font-size: large;
+	border-radius: 50px;
+	border-style: hidden;
+}
+div.button{
+	background-color:rgb(0 92 149 / 26%);
+	width: 205px;
+	width: 165px;
+	border-radius: 50px;
+	margin-left: 28px;
+	transition: 0.3s;
+}
+pre{
+	font-size: 25px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+span{
+	color: rgb(0, 99, 66);
+}
+.Cart{
+	margin-left: 65px;
+    margin-top: 5px;
+}
+#cart{
+	height: 50px;
+    background-color: #004476;
+    color: white;
+    border-radius: 50px;
+	cursor: pointer;
+}
+
+.meat{
+	background-color: white;
+    width: min-content;
+    height: 470px;
+    border-style: groove;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 75px;
+	transition: 0.3s;
+}
+.meat:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#meat{
+	width: 200px;
+	margin-left: 8px;
+    margin-bottom: -12px;
+}
+.Minced-meat{
+	margin-left: 350px;
+    margin-top: -475px;
+    background-color: white;
+    width: min-content;
+    height: 473px;
+    border-radius: 30px;
+    border-style: groove;
+	transition: 0.3s;
+}
+.Minced-meat:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#minced-meat{
+	width: 148px;
+	margin-bottom: 5px;
+    padding-left: 32px;
+}
+
+.sausage{
+	margin-left: 620px;
+    margin-top: -475px;
+	background-color: white;
+    width: min-content;
+    height: 470px;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.sausage:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#sausage{
+	width: 175px;
+    margin-left: 25px;
+	margin-bottom: 12px;
+}
+
+.Beef-burger{
+	margin-left: 900px;
+    margin-top: -475px;
+    height: 470px;
+    width: min-content;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Beef-burger:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Beef-burger{
+	width: 172px;
+	padding-left: 25px;
+	margin-bottom: 15px;
+}
+
+.Steaks{
+	margin-left: 1195px;
+    margin-top: -475px;
+    background-color: white;
+    width: min-content;
+    height: 473px;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Steaks:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Steaks{
+	width: 180px;
+	margin-bottom: 8px;
+	margin-left: 15px;
+}
+
+.salami{
+	margin-left: 74px;
+	margin-top: 10px;
+    height: 470px;
+    background-color: white;
+    width: min-content;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.salami:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#salami{
+	width: 200px;
+	padding-left: 10px;
+	margin-bottom: 25px;
+}
+
+.Escalope {
+	margin-left: 350px;
+    margin-top: -473px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Escalope:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Escalope{
+	width: 200px;
+	padding-left: 15px;
+    margin-bottom: -13px;
+}
+
+.Kofta{
+	margin-left: 620px;
+    margin-top: -475px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Kofta:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Kofta{
+	width: 150px;
+    padding-left: 30px;
+	margin-bottom: 5px;
+}
+
+.Liver{
+	margin-left: 900px;
+    margin-top: -475px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Liver:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Liver{
+	width: 200px;
+	margin-bottom: 40px;
+}
+
+.Beef-Heart{
+	margin-left: 1195px;
+    margin-top: -475px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Beef-Heart:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Beef-Heart{
+	width: 200px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.Tilapia-fish{
+	margin-left: 74px;
+	margin-top: 10px;
+    background-color: white;
+    width: min-content;
+    height: 470px;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Tilapia-fish:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Tilapia-fish{
+	width: 200px;
+	margin-bottom: 32px;
+    padding-top: 40px;
+}
+
+.Tuna{
+	margin-left: 350px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Tuna:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Tuna{
+	width: 200px;
+	padding-top: 25px;
+    margin-bottom: 28px;
+}
+
+.Pagrus{
+	margin-left: 620px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Pagrus:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Pagrus{
+	width: 200px;
+	margin-bottom: 30px;
+}
+
+.Sardines{
+	margin-left: 900px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Sardines:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Sardines{
+	width: 200px;
+	margin-bottom: 35px;
+}
+
+.Scomberoides{
+	margin-left: 1195px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Scomberoides:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Scomberoides{
+	width: 200px;
+	margin-bottom: 35px;
+}
+
+.Mullet-fish{
+	margin-left: 74px;
+    margin-top: 10px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Mullet-fish:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Mullet-fish{
+	width: 200px;
+	margin-top: 15px;
+    margin-bottom: 38px;
+}
+
+.Grouper-fish{
+	margin-left: 350px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Grouper-fish:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Grouper-fish{
+	width: 200px;
+	margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.Striped{
+	margin-left: 620px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Striped:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Striped{
+	width: 200px;
+	margin-bottom: 55px;
+}
+
+.Shrimp{
+	margin-left: 900px;
+    margin-top: -474px;
+    height: 470px;
+    width: min-content;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Shrimp:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Shrimp{
+	width: 200px;
+	margin-bottom: 38px;
+}
+
+.crab{
+	margin-left: 1195px;
+    margin-top: -474px;
+    height: 470px;
+    width: min-content;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.crab:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#crab{
+	width: 165px;
+    margin-top: 1px;
+    padding-left: 25px;
+    margin-bottom: -13px;
+}
+
+.Chicken{
+	margin-left: 74px;
+    margin-top: 10px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Chicken:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Chicken{
+	width: 150px;
+    padding-left: 30px;
+}
+
+.Chicken-thigh{
+	margin-left: 350px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Chicken-thigh:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Chicken-thigh{
+	width: 170px;
+    padding-left: 25px;
+    margin-bottom: 17px;
+}
+
+.Chicken-slices{
+	margin-left: 620px;
+    margin-top: -474px;
+    background-color: white;
+    width: min-content;
+    height: 470px;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Chicken-slices:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Chicken-slices{
+	width: 180px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.Nuggets{
+	margin-left: 900px;
+	margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Nuggets:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Nuggets{
+	width: 190px;
+    padding-left: 10px;
+    margin-bottom: -2px;
+}
+
+.Chicken-strips{
+	margin-left: 1195px;
+    margin-top: -474px;
+    width: min-content;
+    height: 470px;
+    background-color: white;
+    border-style: groove;
+    border-radius: 30px;
+	transition: 0.3s;
+}
+.Chicken-strips:hover{
+	filter:drop-shadow(6px 8px 10px black);
+}
+#Chicken-strips{
+	width: 175px;
+    padding-left: 20px;
+    margin-bottom: 14px;
+}
+header{
+    background-color:#131921;
+    align-items: center;
+    z-index: 9999;
+    display: flex;
+    padding-top: 6px;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;  
+	margin-top: -8px;
+    margin-left: -10px;
+    /* position: fixed; */
+ } 
+ .box {
+  background-color: white; 
+  border-radius: 20px;
+  padding-right: 200px ; 
+  margin-bottom: 8px;
+  display: flex;
+  width: 500px;
+  height: 40px;
+  box-shadow: 5px 5px 10px 1px LIrgbo, o, o, 5;
+ }
+ .box form {
+  background-color: var (--light-color);  
+  border-radius: 150px; 
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center; 
+ }
+ .box form i {
+  padding: 5px;
+  color: orange;
+  }
+  
+   .box form input[type="search"] {
+    flex: 1;
+    min-width: 10px; 
+    background-color:inherit;
+    border: none;
+    outline: none;
+    padding: 0px 5px; 
+  }
+  .box form input[type="submit"] {
+ background-color: var(--secondary-color);
+ color: white; 
+border-radius: 150px;
+padding: 15px;
+font-weight:700;
+border: none; 
+}
+.box form input[type="submit"]:hover {
+background-color: var (--tertiary-color); 
+}
+
+#icon1{
+  font-size: 1.5em;
+  color: white;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+#icon1:hover{
+  color: orange;
+}
+#icon2{
+  font-size: 1.5em;
+  color: white;
+  padding-right: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#icon2:hover{
+  color:orange;
+}
+#icon3{
+  font-size: 1.5em;
+  color: white;
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#icon3:hover{
+  color:orange;
+}
+ .nono{
+  background-color:#232f3e;
+  align-items: center;
+  display: flex;
+  padding: 4px 4px;
+  margin: 0px 0px;
+  justify-content: center;
+  position: sticky;
+  transition: 0.7s ease;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+ .onething{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+ }
+.logo{
+    text-decoration: none;
+    color:white ;
+    font-weight: 800;
+    font-size: 2.6em;
+    text-decoration: none;
+}
+.supermarket{
+  color: orange;
+  font-size:0.7em ;
+  font-weight: 400;
+}
+.navigation a{
+   background-color:#232f3e; 
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-right: 40px;
+    justify-content: space-between;
+
+}
+.navigation a:hover{
+    color:orange;
+}
+.main img{
+	width: 1000px;
+	height: 400px;
+	margin-top: 2px;
+	margin-left: 244px;
+	border-radius:20px;
+	margin-bottom: 15px;
+   }
+   
+   .ad{
+	   margin-top: -430px;
+   }
+   .ad-2{
+	   margin-left: 1285px;
+	   margin-top: -401px;
+   }
+   .footer{
+	background-color: #232f3e;
+	padding: 50px 0px;
+  }
+  .container{
+	max-width: 1170px;
+	background-color: #232f3e;
+	margin: auto;
+	
+  }
+  .row{
+	display: flex;
+	flex-wrap: wrap;
+  }
+  .row ul{
+	list-style:none;
+  }
+  
+  .coul{
+	width: 25%;
+	padding: 0px 15px;
+  
+  }
+  .coul h3{
+	font-size: 1.7em;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 500;
+	font-weight: 500;
+	position: relative;
+	margin-top: 7px;
+	
+  } 
+  
+  .coul h3::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: orange;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+  
+  }
+  .coul::not(:last-child){
+	margin-bottom: 10px;
+  }
+  .coul ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+	margin-top: 7px;
+  }
+  .coul ul li a:hover{
+	color: #ffff;
+	padding-left: 8px;
+  }
+  .coul .socialz a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,.2);
+	margin: 0 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color:#ffffff;
+	transition: all 0.5s ease;
+	margin-top: 7px;
+  }
+  .socialz a:hover{
+	color: #24262b;
+	background-color:white;
+  }
+  .socialz{
+	margin-left: 1110px;
+    margin-top: -270px;
+  }  
+  .name-page{
+	text-decoration: none;
+	font-size:1.0em ;
+	font-weight:800 ;
+    color:white;
+  }

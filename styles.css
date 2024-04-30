@@ -1,0 +1,40 @@
+
+header{
+    width:600px ;
+    background:blak;
+    border-radius: 20px; 
+    background-image: url(mk.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    text-align:center;
+    border:solid;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left, .right {
+    margin: 20px;
+    border-radius:10px;
+    border: solid;
+    }
+
+form {
+    margin: 20px;
+    border-radius:10px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    
+}
+.right{
+    margin: 10px;
+    border-radius:10px;
+    border: solid;
+    
+}

@@ -1,0 +1,94 @@
+@media (prefers-color-scheme: dark) { body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: #ffffff ;
+     background-color: #222;
+    color: #f1f1f1;
+    }
+  }
+    .dark-mode {
+      background-color: #333;
+      color: #f1f1f1;
+    }
+    
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    color:orangered;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .title a{
+    display: flex;
+    justify-content: center;
+    color:orangered;
+    font-size: 1.6em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    text-decoration: none;
+  }
+  .Dairy{
+    background-color:black;
+  }
+  .Dairy .content{
+    margin-top: 30px;
+  }
+  .Dairy-cards{
+    background-color: orange;
+    border: 1px solid orange;
+    min-height: 14em; 
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+  }
+  .Dairy-cards:hover{
+    transform: scale(1.1);
+  }
+  .Dairy-cards:hover .d-image{
+    opacity: 0.9;
+  }
+  .d-image img{
+    width: 100%;
+  }
+  .d-info{
+    padding: 1em;
+  }
+  .dairy-category h3{
+    font-size: 0.8em;
+    color: whitesmoke;
+  }
+  .project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+  .more-details{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 1.6em;
+  }
+  .more-details:hover{
+    color:black;
+  }
+  .project-title span{
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  .main{
+    background-color: black;
+}

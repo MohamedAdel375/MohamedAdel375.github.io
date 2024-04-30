@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>project 3</title>
+</head>
+<body>
+    <header>
+        <img src="mk.jpg" alt="" width="600px">
+        <div class="container">
+            <div class="left">
+                <h2><u><b>Order address</b></u></h2>
+                <form id="checkout-form">   
+                    Full Name 
+                    <input required type="text" name="full-name" placeholder="Enter name">
+        
+                    Email 
+                    <input required type="email" name="email" placeholder="Enter Email">
+       
+                    Address
+                    <input required type="text" name="address" placeholder="Enter address">
+                    
+                    Phone Number
+                    <input required type="tel" name="phone-number" placeholder="Enter phone number">   
+       <br> <br>             
+                    City
+                    <input required type="text" name="city" placeholder="Enter city">
+                    <br> <br>
+                    State
+                    <select name="state">
+                        <option selected disabled>Choose state</option>
+                        <option>Cairo</option>
+                        <option>Helwan</option>
+                        <option>Ain Shams</option>
+                        <option>Alexandria</option>
+                        <option>Fayoum</option>
+                        <option>Aswan</option>
+                    </select>
+                    <br> <br>
+                    Zip Code 
+                    <input required type="number" name="zip-code" placeholder="Zip code">
+           </div>
+
+           <div class="right"> 
+                <h2><u><b>Payment</b></u></h2>
+                
+                Accepted Card 
+                <img src="cash.jpg" alt="" width="200">
+                
+                Credit Card Number 
+                <input required type="number" name="card-number" placeholder="Enter card number">
+                <br> <br>
+                Expiry Month
+                <select name="expiry-month">
+                    <option selected disabled>Choose Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option> 
+                </select>
+                <br> <br>
+                Expiry Year
+                <select name="expiry-year">
+                    <option selected disabled>Choose year</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                </select>
+                <br> <br>
+                CVV 
+                <input required type="number" name="cvv" placeholder="Enter CVV">
+                <br> <br>
+                <input type="submit" value="Proceed to Checkout">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        document.getElementById("checkout-form").addEventListener("submit", function(event) {
+            
+            event.preventDefault();
+            
+            
+            alert("Thank you for choosing us");
+        });
+    </script>
+</body>
+</html>
